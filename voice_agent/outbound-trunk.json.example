@@ -1,0 +1,11 @@
+{
+  "trunk": {
+    "name": "twilio-outbound-in",
+    "address": "your-trunk-name.pstn.twilio.com",
+    "destination_country": "IN",
+    "numbers": ["+15550001111"],
+    "transport": "SIP_TRANSPORT_AUTO",
+    "auth_username": "SET_AT_RUNTIME_FROM_ENV",
+    "auth_password": "SET_AT_RUNTIME_FROM_ENV"
+  }
+}
